@@ -1,21 +1,18 @@
 # Duper
+ 
+this is used to find duplicate in files 
 
-**TODO: Add description**
+there are four servers
 
-## Installation
+## results
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `duper` to your list of dependencies in `mix.exs`:
+used to store the results
 
-```elixir
-def deps do
-  [
-    {:duper, "~> 0.1.0"}
-  ]
-end
-```
+## pathfinder
+findes the path of a given file and feeds it to the next server
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/duper>.
+## worker
+this is used to do all the hashing from the files in the path finder
 
+## gatherer 
+where all the operations starts
